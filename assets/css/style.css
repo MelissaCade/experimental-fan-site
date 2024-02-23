@@ -1,0 +1,196 @@
+* {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.p-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: large;
+}
+.sidenav-lt {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  left: 0px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+  background-color: rgb(230, 230, 230);
+}
+.sidenav-rt {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  right: 0px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+  background-color: rgb(230, 230, 230);
+}
+.sidenav-lt a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #260052;
+  display: block;
+  font-weight: 500;
+  background-color: rgb(230, 230, 230);
+}
+.sidenav-lt a:hover {
+  color: white;
+}
+header {
+  background-color: rgb(54, 18, 54);
+  color: white;
+  height: 100px;
+  display: block;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+}
+body {
+  margin: 0;
+}
+h2 {
+  font-size: 36px;
+  text-align: center;
+  margin: 100px 0px 40px 20px;
+  display: block;
+  position: relative;
+  top: 26px;
+}
+img {
+  height: 300px;
+  margin: 5px;
+}
+.anchor {
+  display: block;
+  height: 20px; /* this is the height of your header */
+  visibility: hidden;
+}
+.main {
+  margin-left: 170px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+#intro-paragraph {
+  display: inline;
+  margin: 10px 30px;
+  font-size: 24px;
+  position: relative;
+  text-wrap: wrap;
+}
+.p-description {
+  display: block;
+  margin: 30px 120px;
+  font-size: 24px;
+  position: relative;
+  text-wrap: wrap;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+section {
+  position: relative;
+  padding: 25px 175px 25px 175px;
+  display: block;
+}
+#intro {
+  display: flex;
+  align-items: center;
+  top: 100px;
+}
+.display-sections {
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#profile_pic {
+  height: 200px;
+  display: inline;
+  border-color: rgb(54, 18, 54);
+  border-width: 5px;
+  border-style: solid;
+  vertical-align: top;
+}
+#logo_pic {
+  height: 200px;
+  display: inline;
+  border-color: rgb(54, 18, 54);
+  border-width: 5px;
+  border-style: solid;
+  vertical-align: top;
+}
+#header-text {
+  font-size: 48px;
+  text-align: center;
+  background-color: rgb(54, 18, 54);
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 26px;
+}
+
+/*.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}*/
